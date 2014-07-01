@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08FC6C12192B01600029293D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FC6C11192B01600029293D /* Foundation.framework */; };
+		08FC6C14192B01600029293D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FC6C13192B01600029293D /* CoreGraphics.framework */; };
+		08FC6C16192B01600029293D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FC6C15192B01600029293D /* UIKit.framework */; };
+		08FC6C1C192B01600029293D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08FC6C1A192B01600029293D /* InfoPlist.strings */; };
+		08FC6C1E192B01600029293D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FC6C1D192B01600029293D /* main.m */; };
+		08FC6C22192B01600029293D /* XBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FC6C21192B01600029293D /* XBAppDelegate.m */; };
+		08FC6C25192B01600029293D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08FC6C23192B01600029293D /* Main.storyboard */; };
+		08FC6C28192B01600029293D /* XBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FC6C27192B01600029293D /* XBViewController.m */; };
+		08FC6C2A192B01600029293D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08FC6C29192B01600029293D /* Images.xcassets */; };
+		08FC6C31192B01600029293D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FC6C30192B01600029293D /* XCTest.framework */; };
+		08FC6C32192B01600029293D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FC6C11192B01600029293D /* Foundation.framework */; };
+		08FC6C33192B01600029293D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FC6C15192B01600029293D /* UIKit.framework */; };
+		08FC6C3B192B01600029293D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08FC6C39192B01600029293D /* InfoPlist.strings */; };
+		08FC6C3D192B01600029293D /* iOSCreateNoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FC6C3C192B01600029293D /* iOSCreateNoteTests.m */; };
+		08FC6C48192B05430029293D /* CoreDataContextFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FC6C47192B05430029293D /* CoreDataContextFactory.m */; };
+		08FC6C4B192B05800029293D /* xbdatamodel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 08FC6C49192B05800029293D /* xbdatamodel.xcdatamodeld */; };
+		08FC6C4E192B06080029293D /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FC6C4D192B06080029293D /* Note.m */; };
+		08FC6C50192B061E0029293D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FC6C4F192B061E0029293D /* CoreData.framework */; };
+		08FC6C53192B06DF0029293D /* XBNoteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FC6C52192B06DF0029293D /* XBNoteManager.m */; };
+		08FC6C59192B0A030029293D /* XBAddNoteControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FC6C58192B0A030029293D /* XBAddNoteControllerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08FC6C34192B01600029293D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FC6C06192B01600029293D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08FC6C0D192B01600029293D;
+			remoteInfo = iOSCreateNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08FC6C0E192B01600029293D /* iOSCreateNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSCreateNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08FC6C11192B01600029293D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		08FC6C13192B01600029293D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		08FC6C15192B01600029293D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		08FC6C19192B01600029293D /* iOSCreateNote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSCreateNote-Info.plist"; sourceTree = "<group>"; };
+		08FC6C1B192B01600029293D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08FC6C1D192B01600029293D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08FC6C1F192B01600029293D /* iOSCreateNote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSCreateNote-Prefix.pch"; sourceTree = "<group>"; };
+		08FC6C20192B01600029293D /* XBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XBAppDelegate.h; sourceTree = "<group>"; };
+		08FC6C21192B01600029293D /* XBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBAppDelegate.m; sourceTree = "<group>"; };
+		08FC6C24192B01600029293D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08FC6C26192B01600029293D /* XBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XBViewController.h; sourceTree = "<group>"; };
+		08FC6C27192B01600029293D /* XBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBViewController.m; sourceTree = "<group>"; };
+		08FC6C29192B01600029293D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		08FC6C2F192B01600029293D /* iOSCreateNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSCreateNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08FC6C30192B01600029293D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		08FC6C38192B01600029293D /* iOSCreateNoteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSCreateNoteTests-Info.plist"; sourceTree = "<group>"; };
+		08FC6C3A192B01600029293D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08FC6C3C192B01600029293D /* iOSCreateNoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSCreateNoteTests.m; sourceTree = "<group>"; };
+		08FC6C46192B05430029293D /* CoreDataContextFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataContextFactory.h; sourceTree = "<group>"; };
+		08FC6C47192B05430029293D /* CoreDataContextFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataContextFactory.m; sourceTree = "<group>"; };
+		08FC6C4A192B05800029293D /* xbdatamodel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = xbdatamodel.xcdatamodel; sourceTree = "<group>"; };
+		08FC6C4C192B06080029293D /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		08FC6C4D192B06080029293D /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		08FC6C4F192B061E0029293D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		08FC6C51192B06DF0029293D /* XBNoteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBNoteManager.h; sourceTree = "<group>"; };
+		08FC6C52192B06DF0029293D /* XBNoteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBNoteManager.m; sourceTree = "<group>"; };
+		08FC6C57192B0A030029293D /* XBAddNoteControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBAddNoteControllerViewController.h; sourceTree = "<group>"; };
+		08FC6C58192B0A030029293D /* XBAddNoteControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBAddNoteControllerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08FC6C0B192B01600029293D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08FC6C50192B061E0029293D /* CoreData.framework in Frameworks */,
+				08FC6C14192B01600029293D /* CoreGraphics.framework in Frameworks */,
+				08FC6C16192B01600029293D /* UIKit.framework in Frameworks */,
+				08FC6C12192B01600029293D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08FC6C2C192B01600029293D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08FC6C31192B01600029293D /* XCTest.framework in Frameworks */,
+				08FC6C33192B01600029293D /* UIKit.framework in Frameworks */,
+				08FC6C32192B01600029293D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FC6C05192B01600029293D = {
+			isa = PBXGroup;
+			children = (
+				08FC6C17192B01600029293D /* iOSCreateNote */,
+				08FC6C36192B01600029293D /* iOSCreateNoteTests */,
+				08FC6C10192B01600029293D /* Frameworks */,
+				08FC6C0F192B01600029293D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08FC6C0F192B01600029293D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08FC6C0E192B01600029293D /* iOSCreateNote.app */,
+				08FC6C2F192B01600029293D /* iOSCreateNoteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08FC6C10192B01600029293D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08FC6C4F192B061E0029293D /* CoreData.framework */,
+				08FC6C11192B01600029293D /* Foundation.framework */,
+				08FC6C13192B01600029293D /* CoreGraphics.framework */,
+				08FC6C15192B01600029293D /* UIKit.framework */,
+				08FC6C30192B01600029293D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FC6C17192B01600029293D /* iOSCreateNote */ = {
+			isa = PBXGroup;
+			children = (
+				08FC6C46192B05430029293D /* CoreDataContextFactory.h */,
+				08FC6C47192B05430029293D /* CoreDataContextFactory.m */,
+				08FC6C20192B01600029293D /* XBAppDelegate.h */,
+				08FC6C21192B01600029293D /* XBAppDelegate.m */,
+				08FC6C23192B01600029293D /* Main.storyboard */,
+				08FC6C26192B01600029293D /* XBViewController.h */,
+				08FC6C27192B01600029293D /* XBViewController.m */,
+				08FC6C29192B01600029293D /* Images.xcassets */,
+				08FC6C18192B01600029293D /* Supporting Files */,
+				08FC6C49192B05800029293D /* xbdatamodel.xcdatamodeld */,
+				08FC6C4C192B06080029293D /* Note.h */,
+				08FC6C4D192B06080029293D /* Note.m */,
+				08FC6C51192B06DF0029293D /* XBNoteManager.h */,
+				08FC6C52192B06DF0029293D /* XBNoteManager.m */,
+				08FC6C57192B0A030029293D /* XBAddNoteControllerViewController.h */,
+				08FC6C58192B0A030029293D /* XBAddNoteControllerViewController.m */,
+			);
+			path = iOSCreateNote;
+			sourceTree = "<group>";
+		};
+		08FC6C18192B01600029293D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08FC6C19192B01600029293D /* iOSCreateNote-Info.plist */,
+				08FC6C1A192B01600029293D /* InfoPlist.strings */,
+				08FC6C1D192B01600029293D /* main.m */,
+				08FC6C1F192B01600029293D /* iOSCreateNote-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08FC6C36192B01600029293D /* iOSCreateNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				08FC6C3C192B01600029293D /* iOSCreateNoteTests.m */,
+				08FC6C37192B01600029293D /* Supporting Files */,
+			);
+			path = iOSCreateNoteTests;
+			sourceTree = "<group>";
+		};
+		08FC6C37192B01600029293D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08FC6C38192B01600029293D /* iOSCreateNoteTests-Info.plist */,
+				08FC6C39192B01600029293D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08FC6C0D192B01600029293D /* iOSCreateNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08FC6C40192B01600029293D /* Build configuration list for PBXNativeTarget "iOSCreateNote" */;
+			buildPhases = (
+				08FC6C0A192B01600029293D /* Sources */,
+				08FC6C0B192B01600029293D /* Frameworks */,
+				08FC6C0C192B01600029293D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSCreateNote;
+			productName = iOSCreateNote;
+			productReference = 08FC6C0E192B01600029293D /* iOSCreateNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08FC6C2E192B01600029293D /* iOSCreateNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08FC6C43192B01600029293D /* Build configuration list for PBXNativeTarget "iOSCreateNoteTests" */;
+			buildPhases = (
+				08FC6C2B192B01600029293D /* Sources */,
+				08FC6C2C192B01600029293D /* Frameworks */,
+				08FC6C2D192B01600029293D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08FC6C35192B01600029293D /* PBXTargetDependency */,
+			);
+			name = iOSCreateNoteTests;
+			productName = iOSCreateNoteTests;
+			productReference = 08FC6C2F192B01600029293D /* iOSCreateNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FC6C06192B01600029293D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Xebia;
+				TargetAttributes = {
+					08FC6C2E192B01600029293D = {
+						TestTargetID = 08FC6C0D192B01600029293D;
+					};
+				};
+			};
+			buildConfigurationList = 08FC6C09192B01600029293D /* Build configuration list for PBXProject "iOSCreateNote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08FC6C05192B01600029293D;
+			productRefGroup = 08FC6C0F192B01600029293D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08FC6C0D192B01600029293D /* iOSCreateNote */,
+				08FC6C2E192B01600029293D /* iOSCreateNoteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08FC6C0C192B01600029293D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08FC6C2A192B01600029293D /* Images.xcassets in Resources */,
+				08FC6C1C192B01600029293D /* InfoPlist.strings in Resources */,
+				08FC6C25192B01600029293D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08FC6C2D192B01600029293D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08FC6C3B192B01600029293D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08FC6C0A192B01600029293D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08FC6C4B192B05800029293D /* xbdatamodel.xcdatamodeld in Sources */,
+				08FC6C53192B06DF0029293D /* XBNoteManager.m in Sources */,
+				08FC6C59192B0A030029293D /* XBAddNoteControllerViewController.m in Sources */,
+				08FC6C22192B01600029293D /* XBAppDelegate.m in Sources */,
+				08FC6C1E192B01600029293D /* main.m in Sources */,
+				08FC6C4E192B06080029293D /* Note.m in Sources */,
+				08FC6C28192B01600029293D /* XBViewController.m in Sources */,
+				08FC6C48192B05430029293D /* CoreDataContextFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08FC6C2B192B01600029293D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08FC6C3D192B01600029293D /* iOSCreateNoteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08FC6C35192B01600029293D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08FC6C0D192B01600029293D /* iOSCreateNote */;
+			targetProxy = 08FC6C34192B01600029293D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08FC6C1A192B01600029293D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08FC6C1B192B01600029293D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		08FC6C23192B01600029293D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08FC6C24192B01600029293D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08FC6C39192B01600029293D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08FC6C3A192B01600029293D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08FC6C3E192B01600029293D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		08FC6C3F192B01600029293D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08FC6C41192B01600029293D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSCreateNote/iOSCreateNote-Prefix.pch";
+				INFOPLIST_FILE = "iOSCreateNote/iOSCreateNote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		08FC6C42192B01600029293D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSCreateNote/iOSCreateNote-Prefix.pch";
+				INFOPLIST_FILE = "iOSCreateNote/iOSCreateNote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		08FC6C44192B01600029293D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSCreateNote.app/iOSCreateNote";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSCreateNote/iOSCreateNote-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOSCreateNoteTests/iOSCreateNoteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		08FC6C45192B01600029293D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSCreateNote.app/iOSCreateNote";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSCreateNote/iOSCreateNote-Prefix.pch";
+				INFOPLIST_FILE = "iOSCreateNoteTests/iOSCreateNoteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08FC6C09192B01600029293D /* Build configuration list for PBXProject "iOSCreateNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08FC6C3E192B01600029293D /* Debug */,
+				08FC6C3F192B01600029293D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08FC6C40192B01600029293D /* Build configuration list for PBXNativeTarget "iOSCreateNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08FC6C41192B01600029293D /* Debug */,
+				08FC6C42192B01600029293D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		08FC6C43192B01600029293D /* Build configuration list for PBXNativeTarget "iOSCreateNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08FC6C44192B01600029293D /* Debug */,
+				08FC6C45192B01600029293D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		08FC6C49192B05800029293D /* xbdatamodel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				08FC6C4A192B05800029293D /* xbdatamodel.xcdatamodel */,
+			);
+			currentVersion = 08FC6C4A192B05800029293D /* xbdatamodel.xcdatamodel */;
+			path = xbdatamodel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 08FC6C06192B01600029293D /* Project object */;
+}
